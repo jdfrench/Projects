@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Oswald:700);
+html, body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Oswald, arial, sans-serif;
+	margin-top: 0;
+}
+p {
+	font-family: "Source Sans Pro", arial, sans-serif;
+	line-height: 1.5;
+}
+#header .wrap {
+	width: 600px;
+	margin: 0 auto;
+}
+#header {
+	background: url("../images/home.png") fixed 50% 25%;
+	clear: both;
+	margin: 0;
+	padding-top: 40px;
+}
+#header h1 {
+	margin: 0;
+	padding: 45px 0 0 0;
+	font: 80pt Oswald, Arial, sans-serif;
+	color: #d02027;
+}
+#header #logo {
+	float: left;
+	width: 220px;
+}
+#header p {
+	margin: -10px 0 30px 0;
+	font-size: 16pt;
+	color: #474747;
+}
+#header strong {
+	font-weight: normal;
+	color: #000;
+}
+#arrow {
+	background: url("../images/arrow.png") no-repeat 365px 0;
+	width: 600px;
+	height: 11px;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+#information {
+	background-color: #d02027;
+	padding-top: 20px;
+}
+#information table {
+	padding: 60px 0;
+	width: 960px;
+	margin: 0 auto;
+	border: 0;
+	vertical-align: text-top;
+}
+#information td {
+	padding: 0px 20px;
+	width: 300px;
+	vertical-align: top;
+}
+#information h2 {
+	margin: 0;
+	font-family: Oswald, Arial, sans-serif;
+}
+#information p {
+	color: #292929;
+}
+#registration {
+	background: url("../images/home.png") fixed 50% 25%;
+	color: #fff;
+	padding: 60px 0;
+}
+#registration strong {
+	border: 2px solid #49a139;
+	background-color: #76c966;
+	padding: 5px 9px;
+	font-size: 13pt;
+	border-radius: 4px;
+}
+#registration p {
+	float: left;
+	width: 500px;
+}
+#registration #register {
+	display: block;
+	margin-top: 20px;
+	width: 230px;
+	float: right; 
+	background: #49a139 url("../images/download.png") no-repeat 17px 12px;
+	color: #fff;
+	padding: 11px 17px 11px 33px;
+	text-decoration: none;
+	font: 13pt "Source Sans Pro", arial, sans-serif;
+	border-radius: 6px;
+	text-align: center;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+#registration #register:hover {
+	background: #54ba42 url("../images/download.png") no-repeat 17px 12px;
+}
+#organizations {
+	background-color: #292929;
+	padding: 60px 0;
+}
+#organizations h2 {
+	color: #fff;
+}
+#organizations p {
+	color: #ddd;
+}
+#organizations #charity {
+	width: 455px;
+	padding-right: 50px;
+	float: left;
+}
+#organizations #sponsors {
+	width: 455px;
+	float: right;
+}
+#organizations em {
+	font: italic 11pt Georgia, Arial, sans-serif;
+}
+#sponsors img {
+	opacity: 0.85;
+}
+#sponsors img:hover {
+	opacity: 1;
+}
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 10px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
